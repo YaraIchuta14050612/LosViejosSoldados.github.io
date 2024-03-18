@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Los Viejos Soldados</title>
+    <link rel="icon" type="image/png" href="img/logo.png">
+    <style>
+        /* Importación de la fuente de Google Fonts */
+        @import url('https://fonts.googleapis.com/css?family=Poppins:wght@400;500;600;700;800&display=swap');
+
+        /* Estilos generales */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            text-decoration: none;
+            list-style: none;
+        }
+
+        /* Contenedor principal */
+        .container {
+            max-width: 1200px;
+            margin: auto;
+            position: relative;
+        }
+
+        /* Encabezado */
+        header {
+            height: 300px;
+            position: relative;
+        }
+
+        /* Estilos para el encabezado */
+        .header {
+            background-image: url(img/fondo1.png);
+            background-position: center bottom;
+            background-repeat: no-repeat;
+            background-size: cover;
+            min-height: 70vh;
+            display: flex;
+            align-items: center;
+        }
+
+        /* Menú de navegación */
+        .menu {
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 20px;
+        }
+
+        /* Estilos del logotipo */
+        .logo {
+            color: #fffdfc;
+            font-size: 25px;
+            font-weight: 800;
+        }
+
+        /* Estilos de la barra de navegación */
+        .navbar ul {
+            display: flex;
+        }
+
+        .navbar ul li {
+            color: #FFFDFC;
+            margin-left: 20px;
+        }
+
+        .navbar ul li a {
+            color: #FFFDFC;
+            font-weight: 600;
+        }
+
+        .navbar ul li a:hover {
+            color: #CE9678;
+        }
+
+        /* Contenido del encabezado */
+        .header-content {
+            text-align: center;
+            margin-top: 200px;
+        }
+
+        .header-content h1 {
+            font-size: 50px;
+            color: #F9FAFC;
+            text-transform: uppercase;
+            margin-bottom: 20px;
+        }
+
+        .header-content p {
+            font-size: 18px;
+            color: #c5c5c5;
+            margin: 0 auto;
+            max-width: 600px;
+        }
+
+        /* Estilos del botón */
+        .btn-1 {
+            display: inline-block;
+            padding: 11px 35px;
+            background-color: #CE967B;
+            color: #F9FAFC;
+            text-transform: uppercase;
+            margin-top: 40px;
+        }
+
+        .btn-1:hover {
+            background-color: #ebad8d;
+        }
+
+        /* Estilos generales de párrafo */
+        p {
+            margin-bottom: 20px;
+            text-align: justify;
+        }
+
+        /* Estilo para agregar margen inferior a la imagen */
+        img {
+            margin-bottom: 20px;
+        }
+
+        /* Estilos para tablas */
+        table {
+            border-collapse: collapse;
+        }
+
+        th,
+        td {
+            padding: 8px;
+        }
+
+        /* Estilos del pie de página */
+        footer {
+            background-color: #333;
+            color: #fff;
+            padding: 20px 0;
+            text-align: center;
+        }
+
+        /* Estilos de fuente corporal */
+        body {
+            font-family: 'Poppins', sans-serif;
+        }
+    </style>
+</head>
+
+<body>
+    <header class="header">
+        <div class="menu container">
+            <a href="#" class="logo"><img src="img/logo.png" class="menu-icono" alt="" width="100px" height="100px"></a>
+            <nav class="navbar">
+                <ul>
+                    <li><a href="#Director">Director</a></li>
+                    <li><a href="#Reparto">Reparto</a></li>
+                    <li><a href="#Sinopsis">Sinopsis</a></li>
+                    <li><a href="#Trailer">Trailer</a></li>
+                </ul>
+            </nav>
+        </div>
+        <div class="header-content container">
+            <h1>Los Viejos Soldados</h1>
+            <p>Es un viaje emocionante a través de las vidas entrelazadas de veteranos de guerra,
+                explorando temas de compañerismo, redención y la lucha interna por la paz. Una película conmovedora que
+                te cautivará desde el principio hasta el final.</p>
+            <a href="#Trailer" class="btn-1">Trailer</a>
+        </div>
+    </header>
+    <section class="container">
+        <table class="tabla1">
+            <tr>
+                <th>
+                    <img src="img/soldado2.jpeg" alt="" width="300px" height="450px">
+                </th>
+                <th align="left">
+                    <h2>Ficha Técnica</h2>
+                    <p>Título original: Los Viejos Soldados <br>
+                        Título español: Los Viejos Soldados <br>
+                        Título inglés: The Old Soldiers <br>
+                        Duración: 110 <br>
+                        Año: 2022 <br>
+                        Formato original: DCP - <br>
+                        <a href="https://losviejossoldados.com">Archivo digital</a><br>
+                        Protagonistas <br>
+                        Cristian Mercado, Roberto Choquehuanca.
+                    </p>
+                </th>
+            </tr>
+        </table>
+    </section>
+    <section class="container">
+        <h2><a name="Director"></a>Director</h2>
+        <p class="txt-p">
+            Jorge Sanjinés, director visionario de "Los Viejos Soldados", nos sumerge en un relato emotivo y poderoso
+            que captura la esencia humana de los veteranos de guerra. Con su maestría cinematográfica, Sanjinés nos guía
+            a través de un viaje de redención y camaradería, profundizando en las complejidades de la condición humana
+            con una sensibilidad única. Su enfoque magistral en la narrativa y la dirección de actores nos brinda una
+            experiencia cinematográfica inolvidable que nos invita a reflexionar sobre el impacto duradero de la guerra
+            en el alma humana.
+        </p>
+        <center><img src="img/director.jpg" alt=""></center>
+        <h2>Equipo</h2>
+        <p>Dirección: Jorge Sanjinés <br>
+            Guión: Jorge Sanjinés <br>
+            Casa Productora: Fundación Grupo Ukamau (Bolivia) <br>
+            Productores: Mónica Bustillos Troche y Jorge Sanjinés <br>
+            Productores ejecutivos: Mónica Bustillos Troche <br>
+            Fotografía: Cesar Pérez <br>
+            Sonido directo: Guillermo Palacios <br>
+            Diseño sonoro: <br>
+            Montaje: Jorge Sanjinés <br>
+            Música: Cergio Prudencio <br>
+            Corrección de color: Luis A. Tapia <br>
+            Post de imagen: Albor cine <br>
+            Post de sonido Paquidermo estudio</p>
+    </section>
+    <section class="container">
+        <h2><a name="Reparto"></a>Reparto Principal</h2>
+        <center>
+            <table align="center">
+                <tr>
+                    <th><img src="img/r1.jpg" alt="" width="300px" height="300px"></th>
+                    <th><img src="img/r2.jpeg" alt="" width="300px" height="300px"></th>
+                    <th><img src="img/r3.jpg" alt="" width="300px" height="300px"></th>
+                </tr>
+                <tr align="center">
+                    <td>
+                        <h3>Cristian Mercado</h3>
+                    </td>
+                    <td>
+                        <h3>Roberto Choquehuanca</h3>
+                    </td>
+                    <td>
+                        <h3>Valquiria De La Rocha</h3>
+                    </td>
+                </tr>
+            </table>
+        </center>
+    </section>
+    <section class="container">
+        <h2><a name="Sinopsis"></a>Sinopsis</h2>
+        <p> En medio de la Guerra del Chaco, Guillermo, un joven burgués, salva de morir a Sebastián, un campesino
+            aymara. Con el tiempo, forjan una amistad. Guillermo se rebela contra su coronel por un comportamiento
+            racista, es juzgado y condenado a la pena de muerte. Guillermo es ayudado a escapar y Sebastián lo acompaña
+            en la huida en medio del Chaco boliviano. Durante el escape, se enfrentarán a las más duras condiciones del
+            lugar, casi llegando a morir por falta de agua. Al llegar a una población, se separan yéndose por caminos
+            opuestos y prometen volver a encontrarse.
+
+            Los Viejos Soldados trata del desencuentro en nuestra sociedad boliviana. Desencuentro entre la ciudad y el
+            mundo rural; desencuentro entre habitantes originarios y descendientes blancos y mestizos de los invasores
+            españoles del siglo XVI; desencuentro de culturas, de cosmovisiones, de modos y maneras de ver la
+            Naturaleza, de componer la sociedad. Unos al modo occidental, los otros a su manera ancestral, unos
+            priorizando el yo, otros pensándose primero nosotros, después yo.
+
+            Creemos que es el desafío máximo que enfrenta hoy la sociedad boliviana. Si ese desencuentro no se resuelve,
+            podría generar un enfrentamiento feroz. Por eso es importante comprender ese desencuentro, escarbar en su
+            origen, en su equívoco, en su peligro.
+
+            La película que realizamos intenta generar una honda reflexión sobre ese fenómeno pernicioso que tiene
+            profundas raíces, tal vez tan inmensas que no sea posible desentrañarlas y contenerlas, pero es ineludible
+            intentar sembrar luces, convocar a la fantasía y al amor para resolver ese peligro que acecha si no se lo
+            encara.
+            A propósito, René Zavaleta, probablemente el más lúcido sociólogo de Bolivia, escribió: “diezmar indios sin
+            razones en la guerra evidenciaba una ansiedad secreta de suprimirlos, lo que estaba en la lógica del
+            darwinismo social”.</p>
+    </section>
+    <section class="container">
+        <h2><a name="Trailer">Trailer</a></h2>
+        <video width="640" height="360" controls>
+            <source src="video/trailer.mp4" type="video/mp4">
+            Tu navegador no soporta el elemento de video.
+        </video>
+    </section>
+    <section class="container">
+        <h2><a name="Trailer">Fotos</a></h2>
+        <center>
+            <img src="img/sol.jpg" alt="" width="500px" height="350px">
+            <img src="img/sol1.jpg" alt="" width="500px"height="350px">
+            <img src="img/sol2.jpg" alt="" width="500px"height="350px">
+            <img src="img/sol3.jpeg" alt="" width="500px"height="350px">
+            <img src="img/soldado1.jpg" alt="" width="1000px">
+        </center>
+        </video>
+    </section>
+    <footer>
+        <p>© 2024 INF-113 Programacion Web I | Ichuta Sinka Yara Belen 14050612</p>
+    </footer>
+</body>
+
+</html>
